@@ -1,0 +1,153 @@
+.myWidth{
+	position: absolute;
+}
+
+.myPosition
+{
+	width: 100%;
+}
+
+
+.myRed{
+	color: red;
+	width: 20px !important;
+	height: 20px !important;
+
+}
+
+.myWidth20
+{
+	width: 30px;
+}
+
+.radiogroup
+{
+	padding: 10px;
+}
+
+.labelstyle
+{
+	font-weight: bold;
+}
+
+.colorSection
+{
+	background-color: white;
+}
+
+.colorFond
+{
+	color: black;
+}
+
+.simpleMargin25
+{
+	margin-top: 25px;
+}
+
+.simplePadding15
+{
+	margin-top: 15px;
+}
+
+.simpleMargin
+{
+	margin: 15px;
+}
+.Padding15
+{
+	margin: 1px;
+	padding: 15px 15px;
+	background: rgba(0, 0, 0, 0.04);
+}
+
+.Padding15Max
+{
+	margin: 10px;
+	padding: 15px 15px;
+	background: rgba(0, 0, 0, 0.03);
+}
+
+.border2
+{
+	border: 2px solid;
+	border-radius: 7px;
+	border-color: #59b759;
+}
+
+.iconPresentation
+{
+    font-size: 200px;
+    padding: 30px;
+}
+
+.labelPresentation
+{
+	font-size: 50px;
+}
+
+.CenterElement
+{
+	text-align: center;
+	
+}
+
+.iconPadding, .iconPaddingCancel
+{
+	padding: 5px;
+}
+
+.iconPadding:hover
+{
+	background-color: green;
+	color: white;
+}
+
+.iconPaddingCancel:hover
+{
+	background-color: red;
+	color: white;
+}
+
+.aFormat
+{
+    padding: 0 4px;
+}
+
+.colorGraySimple
+{
+	background-color: #DCDCDC; 
+}
+
+/**Images**/
+.upload
+{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1; 
+}
+
+.upload + label
+{
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+}
+.uploadImg
+{
+    border: 2px dashed #919191;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    height: 145px !important;
+    color:green;
+    font:20px Impact;   
+    margin:-1px;
+}
+
+/**End images**/

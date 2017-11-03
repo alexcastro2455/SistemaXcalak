@@ -1,0 +1,132 @@
+#logo{
+	width: 350px;
+	height: 250px;
+}
+
+#contenedor{
+	background-color: rgba(0,0,0,0.5);
+	color: #ffffff;
+	border-radius: 8px;
+	padding: 15px;
+}
+
+/* Titulo y texto del recuadro */
+#titulo{
+	font-size: 28px;
+	text-align: center;
+}
+
+#texto{
+	font-size: 18px;
+	text-align: center;
+}
+#panel-buscar{
+	padding-top: 15px;
+}
+
+.my-navbar{
+	background-color: #388E3C;
+	border-radius: 0;
+	border: 0;
+}
+
+.my-navbar .navbar-brand{
+	color: #ffffff;
+}
+
+.my-navbar .nav-ul li a {
+	color: #ffffff;
+}
+
+#sesion{
+	padding-top: 100px;/*separacion con borde superior*/}
+
+#login{
+	background: rgba(0,0,0,0.5); /*Color de fondo*/
+	color: #ffffff;/*Color de letra*/
+	padding: 15px;
+	border-radius: 5px;
+	border: 0;
+}
+
+.formulario{
+	padding: 20px;
+}
+
+.hab-des{
+	font-size: 18px;
+}
+
+.precio{
+	font-size: 30px;
+}
+
+footer{
+	text-align: center;
+	width: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	line-height: 3;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+}
+
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+.iconPresentation {
+    height: 300px;
+    width: 300px;
+}
+
+.labelPresentation {
+    font-size: 50px;
+    background: #777;
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+/* -- Media querie -- */
+@media screen and (max-width: 768px) {
+	#logo{
+		width: 200px;
+		height: 120px;
+	}
+
+	#titulo{
+		font-size: 22px;
+		text-align: center;
+	}
+
+	#sesion{
+		padding-top: 50px;/*separacion con borde superior*/
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-bottom: 50px;
+	}
+
+	#texto{
+		font-size: 16px;
+		text-align: justify;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.hab-des{
+		font-size: 14px;
+	}
+
+	.precio{
+		font-size: 20px;
+	}
+}
+
+
